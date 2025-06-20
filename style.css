@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header .logo span {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav i {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero {
+  text-align: center;
+  background: url('https://i.imgur.com/YOzyQvB.jpeg') no-repeat center;
+  background-size: cover;
+  padding: 4rem 2rem 3rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  display: inline-flex;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 60%;
+  max-width: 600px;
+}
+
+.search-bar input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  flex: 1;
+}
+
+.search-bar button {
+  background-color: #0055a5;
+  border: none;
+  padding: 0 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.card {
+  background-color: #0055a5;
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.card i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  margin: 0.5rem 0;
+}
+
+.widgets {
+  background-color: #e0e0e0;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.widget {
+  background: white;
+  padding: 1rem;
+  border-left: 5px solid #0055a5;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.widget span {
+  display: block;
+  font-weight: normal;
+  color: #333;
+  margin-top: 0.5rem;
+}
